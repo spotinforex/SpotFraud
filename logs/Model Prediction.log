@@ -1,0 +1,28 @@
+2025-08-02 17:04:35,004 - WARNING -  The dataset provided is invalid 
+2025-08-02 17:04:35,465 - INFO - Model Prediction In Progress
+2025-08-02 17:08:22,052 - ERROR -  An Error Occurred During Model Prediction The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Class
+Traceback (most recent call last):
+  File "C:\Users\SPOT\Documents\Fraud Scoring\src\model_prediction.py", line 22, in Prediction
+    y_prob = model.predict_proba(X_test)[ : ,1]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SPOT\Documents\churn\Lib\site-packages\sklearn\ensemble\_forest.py", line 945, in predict_proba
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SPOT\Documents\churn\Lib\site-packages\sklearn\ensemble\_forest.py", line 637, in _validate_X_predict
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "C:\Users\SPOT\Documents\churn\Lib\site-packages\sklearn\utils\validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "C:\Users\SPOT\Documents\churn\Lib\site-packages\sklearn\utils\validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Class
+
+2025-08-02 17:28:48,098 - INFO - Model Prediction In Progress
+2025-08-02 17:36:07,337 - INFO - Model Prediction In Progress
+2025-08-02 18:12:35,877 - INFO - Model Prediction In Progress
+2025-08-02 18:20:51,548 - INFO - Model Prediction In Progress
+2025-08-08 20:56:50,674 - INFO - Model Prediction In Progress
