@@ -1,4 +1,4 @@
-##🕵️‍♂️ SpotFraud – Real-Time Fraud Detection Made Simple
+**🕵️‍♂️ SpotFraud – Real-Time Fraud Detection Made Simple**
 
 SpotFraud is an AI-powered fraud detection app that brings real-time, intelligent decision-making to your fingertips. Built with Streamlit, it’s designed to help analysts, auditors, and data professionals catch suspicious transactions fast — without getting lost in code or complex dashboards.
 
